@@ -8,3 +8,4 @@
 {"level":"info","ts":"2022-05-19T14:37:50.665+0800","caller":"router/router.go:45","msg":"server started success! port: :8080","ip":"192.168.18.223","app_id":"eagle","instance_id":"11080478deMBP.lan"}
 {"level":"info","ts":"2022-05-19T14:39:15.672+0800","caller":"router/router.go:45","msg":"server started success! port: :8080","ip":"192.168.18.223","app_id":"eagle","instance_id":"11080478deMBP.lan"}
 {"level":"info","ts":"2022-05-19T14:58:24.175+0800","caller":"router/router.go:45","msg":"server started success! port: :8080","ip":"192.168.18.223","app_id":"eagle","instance_id":"11080478deMBP.lan"}
+{"level":"info","ts":"2022-05-19T15:05:27.977+0800","caller":"router/router.go:45","msg":"server started success! port: :8080","ip":"192.168.18.223","app_id":"eagle","instance_id":"11080478deMBP.lan"}

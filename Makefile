@@ -15,7 +15,6 @@ build: target
 	-X ${version_package}.BuildTime=${build_time} \
 	-X ${version_package}.AppVersion=${app_version}" -v \
 	-o ${work_dir}/${app_name} ./cmd/.
-# show go version
 version:
 	@$(go_version)
 	@echo APP_VERSION $(app_version)
@@ -27,8 +26,8 @@ target:
 .ONESHELL:
 package: build
 	@# 使用tar命令对${word_dir下面的文件打包}
-	cp -r conf  ${work_dir}/
+	cp -r configs  ${work_dir}/
 	cp ./scripts/startup.sh ${work_dir}/
-	cd ${work_dir}/ && tar -zcvf ${app_name}.tar.gz *
+	cd ${work_dir}/ && tar -zcvf ${app_name}-${commit_id}.tar.gz *
 
 .PHONY: version clean build package all
